@@ -55,7 +55,7 @@
 
         fn2 {
             bindings = <
-&kp TILDE  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp ASTRK      &kp LPAR          &kp RPAR           &trans
+&kp TILDE  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp ASTRK      &kp LPAR          &kp RPAR           &kp DEL
 &kp GRAVE  &trans    &trans  &trans    &trans    &trans       &kp MINUS  &kp EQUAL  &kp BACKSLASH  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
 &trans     &trans    &trans  &trans    &trans    &trans       &kp UNDER  &kp PLUS   &kp PIPE       &kp LEFT_BRACE    &kp RIGHT_BRACE    &trans
                              &trans    &trans    &trans       &trans     &trans     &trans
@@ -64,10 +64,10 @@
 
         both {
             bindings = <
-&trans          &kp C_BRI_DN  &kp C_BRI_UP  &kp K_MUTE    &kp C_VOL_DN  &kp C_VOL_UP    &kp C_PREV  &kp C_NEXT  &trans  &trans  &trans  &trans
-&bt BT_CLR_ALL  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans      &trans      &trans  &trans  &trans  &trans
-&trans          &trans        &trans        &trans        &trans        &trans          &trans      &trans      &trans  &trans  &trans  &trans
-                                            &trans        &trans        &trans          &trans      &trans      &trans
+&trans      &kp C_BRI_DN  &kp C_BRI_UP  &kp K_MUTE    &kp C_VOL_DN  &kp C_VOL_UP    &kp C_PREV  &kp C_NEXT  &trans  &trans  &trans  &trans
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans      &trans      &trans  &trans  &trans  &trans
+&trans      &trans        &trans        &trans        &trans        &trans          &trans      &trans      &trans  &trans  &trans  &trans
+                                        &trans        &trans        &trans          &trans      &trans      &trans
             >;
         };
 
