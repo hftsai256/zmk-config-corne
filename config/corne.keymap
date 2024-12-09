@@ -30,12 +30,7 @@
         Navigation {
             bindings = <&mo 3>;
             key-positions = <12 37>;
-            layers = <0>;
-        };
-
-        Homing {
-            bindings = <&to 0>;
-            key-positions = <12 37 40>;
+            layers = <0 2 1>;
         };
     };
 
